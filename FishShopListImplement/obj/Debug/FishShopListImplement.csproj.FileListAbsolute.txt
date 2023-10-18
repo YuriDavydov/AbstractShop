@@ -1,0 +1,10 @@
+C:\Users\Юрий\source\repos\AbstractShopBisnessLogic\FishShopListImplement\obj\Debug\FishShopListImplement.csprojAssemblyReference.cache
+C:\Users\Юрий\source\repos\AbstractShopBisnessLogic\FishShopListImplement\obj\Debug\FishShopListImplement.csproj.CoreCompileInputs.cache
+C:\Users\Юрий\source\repos\AbstractShopBisnessLogic\FishShopListImplement\bin\Debug\FishShopListImplement.dll
+C:\Users\Юрий\source\repos\AbstractShopBisnessLogic\FishShopListImplement\bin\Debug\FishShopListImplement.pdb
+C:\Users\Юрий\source\repos\AbstractShopBisnessLogic\FishShopListImplement\bin\Debug\AbstractShopBisnessLogic.dll
+C:\Users\Юрий\source\repos\AbstractShopBisnessLogic\FishShopListImplement\bin\Debug\AbstractShopBisnessLogic.pdb
+C:\Users\Юрий\source\repos\AbstractShopBisnessLogic\FishShopListImplement\obj\Debug\FishShopListImplement.csproj.CopyComplete
+C:\Users\Юрий\source\repos\AbstractShopBisnessLogic\FishShopListImplement\obj\Debug\FishShopListImplement.dll
+C:\Users\Юрий\source\repos\AbstractShopBisnessLogic\FishShopListImplement\obj\Debug\FishShopListImplement.pdb
+C:\Users\Юрий\source\repos\AbstractShopBisnessLogic\FishShopListImplement\bin\Debug\FishShopListImplement.dll.config

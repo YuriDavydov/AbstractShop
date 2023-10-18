@@ -1,0 +1,30 @@
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\bin\Debug\net6.0\FileImplement.deps.json
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\bin\Debug\net6.0\FileImplement.dll
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\bin\Debug\net6.0\FileImplement.pdb
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\bin\Debug\net6.0\BusinessLogic.dll
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\bin\Debug\net6.0\BusinessLogic.pdb
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\obj\Debug\net6.0\FileImplement.csproj.AssemblyReference.cache
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\obj\Debug\net6.0\FileImplement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\obj\Debug\net6.0\FileImplement.AssemblyInfoInputs.cache
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\obj\Debug\net6.0\FileImplement.AssemblyInfo.cs
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\obj\Debug\net6.0\FileImplement.csproj.CoreCompileInputs.cache
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\obj\Debug\net6.0\FileImplement.csproj.CopyComplete
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\obj\Debug\net6.0\FileImplement.dll
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\obj\Debug\net6.0\refint\FileImplement.dll
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\obj\Debug\net6.0\FileImplement.pdb
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\obj\Debug\net6.0\ref\FileImplement.dll
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\FileImplement\bin\Debug\net6.0\FileImplement.deps.json
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\FileImplement\bin\Debug\net6.0\FileImplement.dll
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\FileImplement\bin\Debug\net6.0\FileImplement.pdb
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\FileImplement\bin\Debug\net6.0\BusinessLogic.dll
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\FileImplement\bin\Debug\net6.0\BusinessLogic.pdb
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\FileImplement\obj\Debug\net6.0\FileImplement.csproj.AssemblyReference.cache
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\FileImplement\obj\Debug\net6.0\FileImplement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\FileImplement\obj\Debug\net6.0\FileImplement.AssemblyInfoInputs.cache
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\FileImplement\obj\Debug\net6.0\FileImplement.AssemblyInfo.cs
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\FileImplement\obj\Debug\net6.0\FileImplement.csproj.CoreCompileInputs.cache
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\FileImplement\obj\Debug\net6.0\FileImplement.csproj.CopyComplete
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\FileImplement\obj\Debug\net6.0\FileImplement.dll
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\FileImplement\obj\Debug\net6.0\refint\FileImplement.dll
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\FileImplement\obj\Debug\net6.0\FileImplement.pdb
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\FileImplement\obj\Debug\net6.0\ref\FileImplement.dll

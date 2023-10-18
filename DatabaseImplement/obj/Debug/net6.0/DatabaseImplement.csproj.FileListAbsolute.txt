@@ -1,0 +1,34 @@
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\DatabaseImplement\bin\Debug\net6.0\DatabaseImplement.deps.json
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\DatabaseImplement\bin\Debug\net6.0\DatabaseImplement.runtimeconfig.json
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\DatabaseImplement\bin\Debug\net6.0\DatabaseImplement.dll
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\DatabaseImplement\bin\Debug\net6.0\DatabaseImplement.pdb
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\DatabaseImplement\bin\Debug\net6.0\BusinessLogic.dll
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\DatabaseImplement\bin\Debug\net6.0\BusinessLogic.pdb
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\DatabaseImplement\obj\Debug\net6.0\DatabaseImplement.csproj.AssemblyReference.cache
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\DatabaseImplement\obj\Debug\net6.0\DatabaseImplement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\DatabaseImplement\obj\Debug\net6.0\DatabaseImplement.AssemblyInfoInputs.cache
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\DatabaseImplement\obj\Debug\net6.0\DatabaseImplement.AssemblyInfo.cs
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\DatabaseImplement\obj\Debug\net6.0\DatabaseImplement.csproj.CoreCompileInputs.cache
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\DatabaseImplement\obj\Debug\net6.0\DatabaseImplement.csproj.CopyComplete
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\DatabaseImplement\obj\Debug\net6.0\DatabaseImplement.dll
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\DatabaseImplement\obj\Debug\net6.0\refint\DatabaseImplement.dll
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\DatabaseImplement\obj\Debug\net6.0\DatabaseImplement.pdb
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\DatabaseImplement\obj\Debug\net6.0\DatabaseImplement.genruntimeconfig.cache
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\DatabaseImplement\obj\Debug\net6.0\ref\DatabaseImplement.dll
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\DatabaseImplement\bin\Debug\net6.0\DatabaseImplement.deps.json
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\DatabaseImplement\bin\Debug\net6.0\DatabaseImplement.runtimeconfig.json
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\DatabaseImplement\bin\Debug\net6.0\DatabaseImplement.dll
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\DatabaseImplement\bin\Debug\net6.0\DatabaseImplement.pdb
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\DatabaseImplement\bin\Debug\net6.0\BusinessLogic.dll
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\DatabaseImplement\bin\Debug\net6.0\BusinessLogic.pdb
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\DatabaseImplement\obj\Debug\net6.0\DatabaseImplement.csproj.AssemblyReference.cache
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\DatabaseImplement\obj\Debug\net6.0\DatabaseImplement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\DatabaseImplement\obj\Debug\net6.0\DatabaseImplement.AssemblyInfoInputs.cache
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\DatabaseImplement\obj\Debug\net6.0\DatabaseImplement.AssemblyInfo.cs
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\DatabaseImplement\obj\Debug\net6.0\DatabaseImplement.csproj.CoreCompileInputs.cache
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\DatabaseImplement\obj\Debug\net6.0\DatabaseImplement.csproj.CopyComplete
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\DatabaseImplement\obj\Debug\net6.0\DatabaseImplement.dll
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\DatabaseImplement\obj\Debug\net6.0\refint\DatabaseImplement.dll
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\DatabaseImplement\obj\Debug\net6.0\DatabaseImplement.pdb
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\DatabaseImplement\obj\Debug\net6.0\DatabaseImplement.genruntimeconfig.cache
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\DatabaseImplement\obj\Debug\net6.0\ref\DatabaseImplement.dll

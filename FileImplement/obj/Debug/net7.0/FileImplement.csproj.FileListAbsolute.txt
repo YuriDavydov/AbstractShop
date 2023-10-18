@@ -1,0 +1,15 @@
+C:\Users\София\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\bin\Debug\net7.0\FileImplement.deps.json
+C:\Users\София\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\bin\Debug\net7.0\FileImplement.dll
+C:\Users\София\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\bin\Debug\net7.0\FileImplement.pdb
+C:\Users\София\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\bin\Debug\net7.0\BusinessLogic.dll
+C:\Users\София\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\bin\Debug\net7.0\BusinessLogic.pdb
+C:\Users\София\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\obj\Debug\net7.0\FileImplement.csproj.AssemblyReference.cache
+C:\Users\София\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\obj\Debug\net7.0\FileImplement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\София\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\obj\Debug\net7.0\FileImplement.AssemblyInfoInputs.cache
+C:\Users\София\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\obj\Debug\net7.0\FileImplement.AssemblyInfo.cs
+C:\Users\София\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\obj\Debug\net7.0\FileImplement.csproj.CoreCompileInputs.cache
+C:\Users\София\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\obj\Debug\net7.0\FileImplement.csproj.CopyComplete
+C:\Users\София\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\obj\Debug\net7.0\FileImplement.dll
+C:\Users\София\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\obj\Debug\net7.0\refint\FileImplement.dll
+C:\Users\София\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\obj\Debug\net7.0\FileImplement.pdb
+C:\Users\София\Desktop\Новая папка (10)\AbstractShopBisnessLogic\FileImplement\obj\Debug\net7.0\ref\FileImplement.dll

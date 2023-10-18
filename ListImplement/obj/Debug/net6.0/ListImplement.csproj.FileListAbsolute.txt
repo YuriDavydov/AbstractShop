@@ -1,0 +1,20 @@
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\ListImplement\obj\Debug\net6.0\ListImplement.csproj.AssemblyReference.cache
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\ListImplement\obj\Debug\net6.0\ListImplement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\ListImplement\obj\Debug\net6.0\ListImplement.AssemblyInfoInputs.cache
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\ListImplement\obj\Debug\net6.0\ListImplement.AssemblyInfo.cs
+C:\Users\Юрий\Desktop\Новая папка (10)\AbstractShopBisnessLogic\ListImplement\obj\Debug\net6.0\ListImplement.csproj.CoreCompileInputs.cache
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\ListImplement\obj\Debug\net6.0\ListImplement.csproj.AssemblyReference.cache
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\ListImplement\obj\Debug\net6.0\ListImplement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\ListImplement\obj\Debug\net6.0\ListImplement.AssemblyInfoInputs.cache
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\ListImplement\obj\Debug\net6.0\ListImplement.AssemblyInfo.cs
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\ListImplement\obj\Debug\net6.0\ListImplement.csproj.CoreCompileInputs.cache
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\ListImplement\bin\Debug\net6.0\ListImplement.deps.json
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\ListImplement\bin\Debug\net6.0\ListImplement.dll
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\ListImplement\bin\Debug\net6.0\ListImplement.pdb
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\ListImplement\bin\Debug\net6.0\BusinessLogic.dll
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\ListImplement\bin\Debug\net6.0\BusinessLogic.pdb
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\ListImplement\obj\Debug\net6.0\ListImplement.csproj.CopyComplete
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\ListImplement\obj\Debug\net6.0\ListImplement.dll
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\ListImplement\obj\Debug\net6.0\refint\ListImplement.dll
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\ListImplement\obj\Debug\net6.0\ListImplement.pdb
+C:\Users\Юрий\Desktop\FishShop\AbstractShopBisnessLogic\ListImplement\obj\Debug\net6.0\ref\ListImplement.dll

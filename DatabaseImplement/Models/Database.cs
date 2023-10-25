@@ -41,26 +41,28 @@ public class Database : DbContext
             ProductName = "тест",
             Price = 1000
         }
-            ); 
-        modelBuilder.Entity<Order>().HasData(new Order
-        {
-            Id = 1,
-            ProductId = 1,
-            ImplementerId = null,
-            Count = 10,
-            Sum = 10000,
-            Status = BusinessLogic.Enums.OrderStatus.Finish,
-            DateCreate = new DateTime(2023, 7, 1, 12, 44, 50),
-            DateImplement = new DateTime(2023, 7, 6, 18, 14, 22)
-        });
+            );
+        /*  modelBuilder.Entity<Order>().HasData(new Order
+         {
+             /*
+             Id = 1,
+             ProductId = 1,
+             ImplementerId = null,
+             Count = 10,
+             Sum = 10000,
+             Status = BusinessLogic.Enums.OrderStatus.Finish,
+             DateCreate = new DateTime(2023, 7, 1, 12, 44, 50),
+             DateImplement = new DateTime(2023, 7, 6, 18, 14, 22)
+             
+ }); */
 
-    }
+}
 
-    public DbSet<Component> Components { set; get; }
-    public DbSet<Product> Products { set; get; }
-    public DbSet<ProductComponent> ProductComponents { set; get; }
-    public DbSet<Order> Orders { set; get; }
-    public DbSet<User> Users { set; get; }
-    public DbSet<Implementer> Implementers {set; get; }
-    public DbSet<MessageInfoDatabase> MessageInfo { set; get; }
+public DbSet<Component> Components { set; get; }
+public DbSet<Product> Products { set; get; }
+public DbSet<ProductComponent> ProductComponents { set; get; }
+public DbSet<Order> Orders { set; get; }
+public DbSet<User> Users { set; get; }
+public DbSet<Implementer> Implementers {set; get; }
+public DbSet<MessageInfoDatabase> MessageInfo { set; get; }
 }

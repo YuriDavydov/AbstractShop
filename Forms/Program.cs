@@ -54,8 +54,8 @@ static class Program
 
         Application.EnableVisualStyles();
         Application.SetCompatibleTextRenderingDefault(false);
-        Application.Run(new FormMain(new OrderLogic(new OrderStorage(), null))
-);
+        Application.Run(container.Resolve<FormMain>());
+
 
     }
     private static IUnityContainer BuildUnityContainer()

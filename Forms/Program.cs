@@ -39,44 +39,42 @@ static class Program
  <add key="MailPassword" value="passlab15" />
 </configuration>
         */
-         
-        // создаем таймер
-        /*
-          var timer = new System.Threading.Timer(new TimerCallback(MailCheck), new
-       MailCheckInfo
+
+        /*// создаем таймер
+
+        var timer = new System.Threading.Timer(new TimerCallback(MailCheck), new
+     MailCheckInfo
         {
             PopHost = "pop.gmail.com",
             PopPort = 995,
-            Storage = container.Resolve<IMessageInfoStorage>()
-        }, 0, 100000);
+            Storage = new MessageInfoStorage()
+        }, 0, 100000); 
         */
-       
+
 
         Application.EnableVisualStyles();
         Application.SetCompatibleTextRenderingDefault(false);
-        Application.Run(container.Resolve<FormMain>());
-        
+        Application.Run(new FormMain(new OrderLogic(new OrderStorage(), null))
+);
+
     }
     private static IUnityContainer BuildUnityContainer()
     {
         var currentContainer = new UnityContainer();
-        currentContainer.RegisterType<IComponentStorage, ComponentStorage>(new
-       HierarchicalLifetimeManager());
-        currentContainer.RegisterType<IOrderStorage, OrderStorage>(new
-       HierarchicalLifetimeManager());
-        currentContainer.RegisterType<IProductStorage, ProductStorage>(new
-       HierarchicalLifetimeManager());
-        currentContainer.RegisterType<ComponentLogic>(new
-       HierarchicalLifetimeManager());
+        currentContainer.RegisterType<IClientStorage, ClientStorage>(new HierarchicalLifetimeManager());
+        currentContainer.RegisterType<IComponentStorage, ComponentStorage>(new HierarchicalLifetimeManager());
+        currentContainer.RegisterType<IImplementerStorage, ImplementerStorage>(new HierarchicalLifetimeManager());
+        currentContainer.RegisterType<IOrderStorage, OrderStorage>(new HierarchicalLifetimeManager());
+        currentContainer.RegisterType<IProductStorage, ProductStorage>(new HierarchicalLifetimeManager());
+        currentContainer.RegisterType<IMessageInfoStorage, MessageInfoStorage>(new HierarchicalLifetimeManager());
+        //currentContainer.RegisterType<ClientLogic>(new HierarchicalLifetimeManager());
+        currentContainer.RegisterType<ComponentLogic>(new HierarchicalLifetimeManager());
+        currentContainer.RegisterType<IImplementerStorage, ImplementerStorage>(new HierarchicalLifetimeManager());
         currentContainer.RegisterType<OrderLogic>(new HierarchicalLifetimeManager());
-        currentContainer.RegisterType<ProductLogic>(new
-       HierarchicalLifetimeManager());
-        currentContainer.RegisterType<ReportLogic>(new
-HierarchicalLifetimeManager());
-        currentContainer.RegisterType<IImplementerStorage, ImplementerStorage>(new
-HierarchicalLifetimeManager());
-        currentContainer.RegisterType<IMessageInfoStorage>(new
- HierarchicalLifetimeManager());
+        currentContainer.RegisterType<ProductLogic>(new HierarchicalLifetimeManager());
+        currentContainer.RegisterType<ReportLogic>(new HierarchicalLifetimeManager());
+        currentContainer.RegisterType<WorkModeling>(new HierarchicalLifetimeManager());
+        currentContainer.RegisterType<MailLogic>(new HierarchicalLifetimeManager());
         return currentContainer;
     }
     private static void MailCheck(object obj)

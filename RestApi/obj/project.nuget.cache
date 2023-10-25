@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "29Qst/jEP8gMfG8CEX+9I3CLR2fetNpifA3au3gZmEXWGBAitwakl3Z/HGOMofRCwWyWfvD5dbhJSocloK7Uxw==",
+  "dgSpecHash": "OxyC6KbnXPKsesh7ZbYrXGbvoMMt5Uif7NIeYsHTbM3BSQ1gTf1fkSyY66TJBOIgwcXrniNNemD7OWgq8BlIzw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Юрий\\Desktop\\FishShop\\AbstractShopBisnessLogic\\RestApi\\RestApi.csproj",
   "expectedPackageFiles": [
@@ -43,6 +43,7 @@
     "C:\\Users\\Юрий\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Юрий\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\Юрий\\.nuget\\packages\\mimekit\\4.1.0\\mimekit.4.1.0.nupkg.sha512",
+    "C:\\Users\\Юрий\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Юрий\\.nuget\\packages\\pdfsharp-migradoc\\1.50.5147\\pdfsharp-migradoc.1.50.5147.nupkg.sha512",
     "C:\\Users\\Юрий\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\Юрий\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",

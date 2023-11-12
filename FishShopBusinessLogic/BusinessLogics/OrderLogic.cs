@@ -103,11 +103,11 @@ namespace BusinessLogic.BusinessLogics
             });
         }
 
-        public void PayOrder(ChangeStatusBindingModel model)
+        public Task PayOrder(ChangeStatusBindingModel model)
         {
             ChangeStatus(model, OrderStatus.Paid, true);
             MailSendInfo info = new MailSendInfo{ MailAddress = "test@mail.ru", Subject = "Заголовок", Text = "Текст" };
-            MailLogic.MailSendAsync(info);
+            return MailLogic.MailSendAsync(info);
         }
 
     }

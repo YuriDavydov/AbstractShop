@@ -1,4 +1,5 @@
-﻿using DocumentFormat.OpenXml.Office2010.Excel;
+﻿using DocumentFormat.OpenXml.InkML;
+using DocumentFormat.OpenXml.Office2010.Excel;
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel;
 
@@ -6,15 +7,22 @@ namespace DatabaseImplement.Models;
 
 public class Database : DbContext
 {
+    public Database() : base() { }
+    public Database(DbContextOptions<Database> options) : base(options) { }
+   
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         if (optionsBuilder.IsConfigured == false)
         {
+            //Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=master;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False
             //Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=database1;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False
-            optionsBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=database1;Integrated Security=True;");
+            optionsBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=master;Integrated Security=True;");
         }
+        
+        base.OnConfiguring(optionsBuilder); 
+        
 
-        base.OnConfiguring(optionsBuilder);
+
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -42,9 +50,10 @@ public class Database : DbContext
             Price = 1000
         }
             );
-        /*  modelBuilder.Entity<Order>().HasData(new Order
+        modelBuilder.Entity<Order>().Property(e => e.Id).UseIdentityColumn();
+          modelBuilder.Entity<Order>().HasData(new Order
          {
-             /*
+             
              Id = 1,
              ProductId = 1,
              ImplementerId = null,
@@ -54,7 +63,7 @@ public class Database : DbContext
              DateCreate = new DateTime(2023, 7, 1, 12, 44, 50),
              DateImplement = new DateTime(2023, 7, 6, 18, 14, 22)
              
- }); */
+ }); 
 
 }
 

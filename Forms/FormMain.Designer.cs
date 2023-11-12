@@ -43,6 +43,7 @@
             компонентыПоИзделиямToolStripMenuItem = new ToolStripMenuItem();
             списокЗаказовToolStripMenuItem = new ToolStripMenuItem();
             buttonImplementers = new Button();
+            buttonAccepted = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView).BeginInit();
             menuStrip1.SuspendLayout();
             SuspendLayout();
@@ -60,7 +61,7 @@
             // 
             // giveInProgressButton
             // 
-            giveInProgressButton.Location = new Point(812, 137);
+            giveInProgressButton.Location = new Point(812, 161);
             giveInProgressButton.Margin = new Padding(4, 3, 4, 3);
             giveInProgressButton.Name = "giveInProgressButton";
             giveInProgressButton.Size = new Size(88, 27);
@@ -154,21 +155,18 @@
             списокКомпонентовToolStripMenuItem.Name = "списокКомпонентовToolStripMenuItem";
             списокКомпонентовToolStripMenuItem.Size = new Size(218, 22);
             списокКомпонентовToolStripMenuItem.Text = "Список компонентов";
-
             // 
             // компонентыПоИзделиямToolStripMenuItem
             // 
             компонентыПоИзделиямToolStripMenuItem.Name = "компонентыПоИзделиямToolStripMenuItem";
             компонентыПоИзделиямToolStripMenuItem.Size = new Size(218, 22);
             компонентыПоИзделиямToolStripMenuItem.Text = "Компоненты по изделиям";
-
             // 
             // списокЗаказовToolStripMenuItem
             // 
             списокЗаказовToolStripMenuItem.Name = "списокЗаказовToolStripMenuItem";
             списокЗаказовToolStripMenuItem.Size = new Size(218, 22);
             списокЗаказовToolStripMenuItem.Text = "Список заказов";
-
             // 
             // buttonImplementers
             // 
@@ -180,11 +178,22 @@
             buttonImplementers.UseVisualStyleBackColor = true;
             buttonImplementers.Click += buttonImplementers_Click;
             // 
+            // buttonAccepted
+            // 
+            buttonAccepted.Location = new Point(817, 106);
+            buttonAccepted.Name = "buttonAccepted";
+            buttonAccepted.Size = new Size(75, 23);
+            buttonAccepted.TabIndex = 8;
+            buttonAccepted.Text = "Принят";
+            buttonAccepted.UseVisualStyleBackColor = true;
+            buttonAccepted.Click += buttonAccepted_Click;
+            // 
             // FormMain
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(933, 519);
+            Controls.Add(buttonAccepted);
             Controls.Add(buttonImplementers);
             Controls.Add(dataGridView);
             Controls.Add(refreshButton);
@@ -222,5 +231,6 @@
         private ToolStripMenuItem компонентыПоИзделиямToolStripMenuItem;
         private ToolStripMenuItem списокЗаказовToolStripMenuItem;
         private Button buttonImplementers;
+        private Button buttonAccepted;
     }
 }

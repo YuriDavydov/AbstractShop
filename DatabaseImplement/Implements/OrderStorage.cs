@@ -3,6 +3,7 @@ using BusinessLogic.Interfaces;
 using BusinessLogic.ViewModels;
 using DatabaseImplement.Models;
 using DocumentFormat.OpenXml.Drawing;
+using DocumentFormat.OpenXml.InkML;
 using DocumentFormat.OpenXml.Office2010.Excel;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -10,6 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
 
 namespace DatabaseImplement.Implements
 {
@@ -111,11 +113,33 @@ namespace DatabaseImplement.Implements
         }
         public void Insert(OrderBindingModel model)
         {
-            using (var context = new Database())
+
+            var options = new DbContextOptionsBuilder<Database>().LogTo(Log).EnableSensitiveDataLogging().Options;
+            using (var context = new Database(options))
             {
-                context.Orders.Add(CreateModel(model, new Order()));
-                context.SaveChanges();
+                
+                Order res = CreateModel(model, new Order());
+                context.Orders.Add(res);
+                try
+                {
+                    
+                    context.SaveChanges();
+                }
+                catch (Exception e) 
+                {
+                    throw e;
+                }
             }
+        }
+        public void Log(string massage) 
+        {
+            StreamWriter log = new StreamWriter("D:\\CLogs\\Log.txt", true);
+            log.WriteLine(massage);
+            log.Close();
+            log.Dispose();
+
+
+ 
         }
         public void Update(OrderBindingModel model)
         {
@@ -166,7 +190,7 @@ namespace DatabaseImplement.Implements
             order.Status = model.Status;
             order.DateCreate = model.DateCreate;
             order.DateImplement = model.DateImplement;
-            order.ImplementerId = model.ImplementerId.HasValue ? model.ImplementerId.Value : 0;
+            order.ImplementerId = model.ImplementerId.HasValue ? model.ImplementerId.Value : null;
 
             
             return order;

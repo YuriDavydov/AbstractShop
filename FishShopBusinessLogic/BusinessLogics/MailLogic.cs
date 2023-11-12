@@ -52,7 +52,7 @@ namespace BusinessLogic.BusinessLogics
             mailLogin = config.MailLogin;
             mailPassword = config.MailPassword;
         }
-        public static async void MailSendAsync(MailSendInfo info)
+        public static async Task MailSendAsync(MailSendInfo info)
         {
             if (string.IsNullOrEmpty(smtpClientHost) || smtpClientPort == 0)
             {
@@ -72,6 +72,7 @@ namespace BusinessLogic.BusinessLogics
                 using (var objSmtpClient = new SmtpClient(smtpClientHost,
                smtpClientPort))
                 {
+                    objSmtpClient.EnableSsl = true;
                     try
                     {
                         objMailMessage.From = new MailAddress(mailLogin);

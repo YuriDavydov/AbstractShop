@@ -78,14 +78,14 @@ public partial class FormMain : Form
         }
     }
 
-    private void OrderIsPaidButton_Click(object sender, EventArgs e)
+    private async void OrderIsPaidButton_Click(object sender, EventArgs e)
     {
         if (dataGridView.SelectedRows.Count == 1)
         {
             int id = Convert.ToInt32(dataGridView.SelectedRows[0].Cells[0].Value);
             try
             {
-                _orderLogic.PayOrder(new ChangeStatusBindingModel { OrderId = id });
+                await _orderLogic.PayOrder(new ChangeStatusBindingModel { OrderId = id });
                 LoadData();
             }
             catch (Exception ex)
@@ -128,5 +128,24 @@ public partial class FormMain : Form
     {
         var form = Container.Resolve<FormImplementers>();
         form.ShowDialog();
+    }
+
+    private void buttonAccepted_Click(object sender, EventArgs e)
+    {
+        if (dataGridView.SelectedRows.Count == 1)
+        {
+            int id = Convert.ToInt32(dataGridView.SelectedRows[0].Cells[0].Value);
+            try
+            {
+                _orderLogic.TakeOrderInAccept(new ChangeStatusBindingModel { OrderId = id });
+                LoadData();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK,
+               MessageBoxIcon.Error);
+            }
+        }
+
     }
 }

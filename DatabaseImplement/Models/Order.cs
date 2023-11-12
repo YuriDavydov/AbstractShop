@@ -1,9 +1,12 @@
 ﻿using BusinessLogic.Enums;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 
 namespace DatabaseImplement.Models;
 
 public class Order
 {
+    [NotMapped]
     public int Id { get; set; }
     public int ProductId { get; set; }
     public int? ImplementerId { get; set; }

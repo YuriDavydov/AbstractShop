@@ -78,14 +78,14 @@ public partial class FormMain : Form
         }
     }
 
-    private async void OrderIsPaidButton_Click(object sender, EventArgs e)
+    private void OrderIsPaidButton_Click(object sender, EventArgs e)
     {
         if (dataGridView.SelectedRows.Count == 1)
         {
             int id = Convert.ToInt32(dataGridView.SelectedRows[0].Cells[0].Value);
             try
             {
-                await _orderLogic.PayOrder(new ChangeStatusBindingModel { OrderId = id });
+                _orderLogic.PayOrder(new ChangeStatusBindingModel { OrderId = id });
                 LoadData();
             }
             catch (Exception ex)

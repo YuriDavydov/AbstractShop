@@ -22,10 +22,10 @@ static class Program
         var container = BuildUnityContainer();
         MailLogic.MailConfig(new MailConfig
         {
-            SmtpClientHost = "smtp.gmail.com",
+            SmtpClientHost = "smtp-relay.amazon.com",
             SmtpClientPort = 587,
-            MailLogin = "labwork15kafis@gmail.com",
-            MailPassword = "passlab15",
+            MailLogin = "testertest123987@gmail.com",
+            MailPassword = "deadoralive",
         });
         /*
           

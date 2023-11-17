@@ -65,8 +65,8 @@ namespace BusinessLogic.BusinessLogics
         public void FinishOrder(ChangeStatusBindingModel model)
         {
             ChangeStatus(model, OrderStatus.Finish);
-            MailSendInfo info = new MailSendInfo { MailAddress = "test@mail.ru", Subject = "Заголовок", Text = "Текст" };
-            MailLogic.MailSendAsync(info);
+            //MailSendInfo info = new MailSendInfo { MailAddress = "test@mail.ru", Subject = "Заголовок", Text = "Текст" };
+            //MailLogic.MailSendAsync(info);
         }
         /// <summary>Смена статуса заказа. Передаем модель, и статус заказа на который хотим сменить.</summary>
         public void ChangeStatus(ChangeStatusBindingModel model, OrderStatus status, bool finished = false)
@@ -103,11 +103,11 @@ namespace BusinessLogic.BusinessLogics
             });
         }
 
-        public Task PayOrder(ChangeStatusBindingModel model)
+        public void PayOrder(ChangeStatusBindingModel model)
         {
             ChangeStatus(model, OrderStatus.Paid, true);
-            MailSendInfo info = new MailSendInfo{ MailAddress = "test@mail.ru", Subject = "Заголовок", Text = "Текст" };
-            return MailLogic.MailSendAsync(info);
+            //MailSendInfo info = new MailSendInfo{ MailAddress = "test@mail.ru", Subject = "Заголовок", Text = "Текст" };
+            //return MailLogic.MailSendAsync(info);
         }
 
     }
